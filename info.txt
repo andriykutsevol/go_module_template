@@ -1,0 +1,110 @@
+Tutorial: Create a Go module
+https://go.dev/doc/tutorial/create-module
+
+    This is the first part of a tutorial that introduces a few fundamental features of the Go language. 
+
+    ---
+    Start a module that others can use
+    ---
+
+        Start by creating a Go module. 
+        In a module, you collect one or more related packages for a discrete and useful set of functions. 
+
+        For example, you might create a module with packages
+        that have functions for doing financial analysis 
+        so that others writing financial applications can use your work.
+
+        For more about developing modules, see 
+        "Developing and publishing modules"
+        https://go.dev/doc/modules/developing
+
+        Go code is grouped into packages, 
+        and packages are grouped into modules. 
+        Your module specifies dependencies needed to run your code, 
+        including the Go version and the set of other modules it requires.
+
+        $ go mod init github.com/andriykutsevol/go_module_template
+
+        
+
+
+
+
+
+Developing and publishing modules
+https://go.dev/doc/modules/developing
+
+
+
+
+
+Module release and versioning workflow
+https://go.dev/doc/modules/release-workflow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
