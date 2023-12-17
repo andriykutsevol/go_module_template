@@ -25,7 +25,19 @@ https://go.dev/doc/tutorial/create-module
 
         $ go mod init github.com/andriykutsevol/go_module_template
 
-        
+        Create github repo "go_module_template".
+        Clone it to dev machine. Add source files. Push. 
+
+        On required project(go_include_from_github) include:
+            import (
+                "github.com/andriykutsevol/go_module_template"
+            )
+        The do the 
+            "go mod tidy" or 
+            "make install_deps"
+        It will download repository to the (GOPATH, we are set it in our makefile):
+            2_packages_modules/go_include_from_github/GOPATH/pkg/mod/github.com/andriykutsevol/go_module_template@v0.0.0-20231217170040-6d7fe10c81db/  
+
 
 
 
