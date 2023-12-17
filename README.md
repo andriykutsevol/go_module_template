@@ -1,0 +1,2 @@
+# go_module_template
+go_module_template
